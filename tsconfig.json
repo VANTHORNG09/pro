@@ -1,0 +1,94 @@
+{
+  
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "name": "assignbridge-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.2",
+    "lucide-react": "^0.344.0",
+    "next": "16.0.0",
+    "next-themes": "^0.3.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "recharts": "^2.12.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5"
+  },
+   "token": "abc123",
+  "user": {
+    "id": "1",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "role": "admin"
+  },
+  
+  "token": "abc123",
+
+  "user": {
+    "id": "2",
+    "name": "Teacher User",
+    "email": "teacher@example.com",
+    "role": "teacher"
+  },
+   "token": "abc123",
+  "user": {
+    "id": "3",
+    "name": "Student User",
+    "email": "student@example.com",
+    "role": "student"
+  },
+  "exclude": ["node_modules"]
+  
+ 
+
+}
